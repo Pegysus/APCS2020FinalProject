@@ -1,5 +1,5 @@
 import java.util.*;
-public class SaltwaterAquarium extends FishTank implements Ecosystem {
+public class SaltwaterAquarium extends FishTank implements Ecosystem { // #22 Inheritance
 
     public static final double[] defaultDimensions = {0, 0, 0};
     public static final ArrayList<Organism> defaultOrganisms = new ArrayList<>();
