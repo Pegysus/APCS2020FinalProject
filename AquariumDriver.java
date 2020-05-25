@@ -42,7 +42,7 @@ public class AquariumDriver {
                 check = false;
             }
             counter++;
-            if(type.equals("fish")) organisms.add(new Fish(species, age, aggression, ill, tempReq, salinityReq));
+            if(type.equals("fish")) organisms.add(new Fish(species, age, aggression, ill, tempReq, salinityReq)); // #23 Polymorphism
             else if(type.equals("coral")) organisms.add(new Coral(species, age, aggression, ill, tempReq, salinityReq));
             else if(type.equals("invert")) organisms.add(new Invert(species, age, aggression, ill, tempReq, salinityReq));
             else System.out.println("Not a sustainable organism");
